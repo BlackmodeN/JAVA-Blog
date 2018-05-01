@@ -1,0 +1,26 @@
+body {
+  background-color:#EAE8E6;
+  overflow: hidden;
+  text-align:center;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+svg{
+ position:absolute;
+  width:800px;
+  height:600px;
+  visibility:hidden;
+overflow: hidden;
+ transform:translate(-50%, 0%);
+ 
+  
+}
+

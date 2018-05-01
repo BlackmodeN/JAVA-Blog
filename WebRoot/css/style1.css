@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+body .container1 {
+  width: 300px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  margin:30px auto;
+}
+body .container1 .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  padding: 0px 20px;
+  transition: all 0.3s;
+  color: white;
+}
+body .container1 .box.box1 {
+  background-color: #7986CB;
+}
+body .container1 .box.box2 {
+  background-color: #FF8A65;
+}
+body .container1 .box.box3 {
+  background-color: #F06292;
+}
+body .container1 .box.box4 {
+  background-color: #4DB6AC;
+}
+body .container1 .box .name {
+  width: 80px;
+}
+body .container1 .box .name h4, body .container .box .name h5 {
+  font-weight: 300;
+}
+body .container1 .box .name h5 {
+  font-size: 0em;
+  line-height: 1.5;
+}
+body .container1 .box p {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+body .container1 .box:before {
+  content: "";
+  height: 0px;
+  width: 0px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-left: -50%;
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .container1 .box.box1:before {
+  background-image: url("../images/1.png");
+}
+body .container1 .box.box2:before {
+  background-image: url("../images/2.png");
+}
+body .container1 .box.box3:before {
+  background-image: url("../images/3.png");
+}
+body .container1 .box.box4:before {
+  background-image: url("../images/4.png");
+}
+
+body .container1 .box:hover:before {
+  content: "";
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 0%;
+  transition: all 0.4s;
+}
+body .container1 .box:hover {
+  height: 120px;
+  transition: all 0.3s;
+}
+body .container1 .box:hover .name h5 {
+  font-size: 0.7em;
+  transition: all 0.6s;
+}
