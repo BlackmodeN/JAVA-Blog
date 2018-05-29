@@ -1,5 +1,13 @@
-# JAVA-Blog
+## 是什么
+一个功能齐全的博客。
+包括文章，点赞，评论，登陆注册，排行。
+## 版本
+##### 0.1version
+没有使用框架，以后可能会重构
+主要使用了：
 JSP-SERVLET-TOMCAT
 使用了html css js(ajax) jsp sevlet mysql完成的mvc架构的博客系统
-有文章发表编辑,评论发表编辑,点赞,踩等功能.实现标签分类,类别分类,列出到访量前几的博文.
-效果图请查看 :mykaleidoscope.xin
+## 如何使用
+在项目中找到mysql的配置文件，更改适配后，根据提供的sql建表。使用tomcat运行。
+## 效果图
+
