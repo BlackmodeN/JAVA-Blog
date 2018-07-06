@@ -12,7 +12,7 @@ JSP-SERVLET-TOMCAT
 ## How To Use
 在项目中找到mysql的配置文件，更改适配后，根据提供的sql建表。使用tomcat运行。
 ## 上线效果地址
-  博客样式已经重构，此版本为如下效果图，新版见 [请点击这里](http://mykaleidoscope.xin/ "Blog") 
+  博客样式已经重构，此版本为如下效果图，新版线上效果见 [请点击这里](http://mykaleidoscope.xin/ "Blog") 
 ## 效果图
 ![图1](https://github.com/BlackmodeN/JAVA-Blog/blob/master/WebRoot/img/01.png)
 ![图2](https://github.com/BlackmodeN/JAVA-Blog/blob/master/WebRoot/img/02.png)
